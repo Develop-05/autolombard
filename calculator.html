@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="apple-touch-startup-image" href="https://www.wepora.com/asset/img/wepora-logo.png">
+    <link rel="icon" type="image/x-icon" href="https://www.wepora.com/asset/img/wepora-logo.png"> -->
+    <meta name="description" content=""/>
+    <meta name="Keywords" content="">
+    <meta name="author" content="inst:@webstorm_studio">
+    <meta name="copyright" content="Copyright © 2020" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   
+    <title>Калькулятор займа</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <script type='text/javascript' src='js/calc.js'></script>
+  </head>
+<body>
+<!--content start-->
+
+
+
+
+<div class="toggle-sidebar">
+  <button class="menu-icon-wrapper">
+      <div class="menu-icon"></div>
+  </button>
+</div>
+
+<aside class="top-header-mobile">
+  <div class="container">
+      <div class="top__inner-mobile">
+       <div class="top__logo-mobile">
+       </div>
+
+       <nav class="menu__mobile">
+
+           <ul class="menu__list-mobile">
+               <li class="menu__list-item-mobile">
+                  <a href="index.html" class="menu__list-link-mobile">главная</a>
+               </li>
+               <li class="menu__list-item-mobile">
+                <li class="main-list-mobile"><a class="menu__list-link-mobile" href="#">Автоломбард</a>
+                  <ul class="sub-list-mobile">
+                    <li class="sub-item"><a class="sub-link" href="auction.html">Аукционы</a></li>
+                    <li class="sub-item"><a class="sub-link" href="bid.html">Заявка</a></li>
+                    <li class="sub-item"><a class="sub-link" href="collective.html">Коллектив</a></li>
+                    <li class="sub-item"><a class="sub-link" href="condition.html">Условия</a></li>
+                    <li class="sub-item"><a class="sub-link" href="vacancy.html">Вакансии</a></li>
+                  </ul>
+                </li>
+               </li>
+               <li class="menu__list-item-mobile">
+                   <a href="calculator.html" class="menu__list-link-mobile">Калькулятор</a>
+               </li>
+               <li class="menu__list-item-mobile">
+                   <a href="contact.html" class="menu__list-link-mobile">Контакты</a>
+               </li>
+           </ul>
+       </nav>
+      </div>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-expand-lg main-block pos">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/nav/logo.svg" alt=""></a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+          <li class="main-list"><a class="nav-link" href="#">Автоломбард</a>
+            <ul class="sub-list">
+              <li class="sub-item"><a class="sub-link" href="auction.html">Аукционы</a></li>
+              <li class="sub-item"><a class="sub-link" href="bid.html">Заявка</a></li>
+              <li class="sub-item"><a class="sub-link" href="collective.html">Коллектив</a></li>
+              <li class="sub-item"><a class="sub-link" href="condition.html">Условия</a></li>
+              <li class="sub-item"><a class="sub-link" href="vacancy.html">Вакансии</a></li>
+            </ul>
+          </li>
+          <a class="nav-link" href="calculator.html">Калькулятор</a>
+          <a class="nav-link" href="contact.html">Контакты</a>
+          
+        </div>
+        <a class="nav-link text-end nav-tel" href="tel:+78129620470"><img src="img/nav/tel-icon.svg" alt="">+7(812)962-04-70</a>
+      </div>
+    </div>
+</nav>
+
+
+<!-- start header -->
+<section class="calculator-header header header-title main-block">
+    <h1 class="title text-center">Калькулятор займа</h1>
+    <h2 class="subtitle text-center">Калькулятор займа</h2>
+</section>
+
+<div class="call__block">
+  <div class="apply-call">заявка на звонок</div>
+  <div class="call__content">
+    <div class="call__title">Заявка на звонок</div>
+    <div class="call__text">Оставьте Ваше имя и номер телефона, если Вы хотите, чтобы мы Вам перезвонили.</div>
+    <label for="name">Ваше имя:</label>
+    <input class="input-call" type="text" id="name" name="name">
+    <label for="tel">Номер телефона:</label>
+    <input class="input-call" type="tel" id="tel" name="tel">
+    <label for="comment">Удобное время для звонка:</label>
+    <textarea></textarea>
+    <input class="input-call" type="submit" value="Отправить">
+  </div>
+</div>
+
+<section class="form-bid calculator ">
+    <div class="container">
+        <div class="row">
+            <div class="offset-lg-1 col-lg-10">
+                <h2>Калькулятор</h2>
+                <h3>Для рассчета заполните поля ниже</h3>
+                <form action="" method="post" action="/post/calc/">
+                    <h4>Введите требуемую сумму:</h4>
+                    <input type="text" name="sum" id="calc-f-sum" placeholder="рублей">
+                    <h4>Срок планируемого займа:</h4>
+                    <input type="text" id="srok-days" name="srok" placeholder="дней">      
+                    <div class="radio-btn input-box">
+                      <h4>Тип ТС, оставляемого в залог:</h4>
+                      <label for="type-1"><input type="radio" id="type-1" checked="true" value="легковой автомобиль" name="type-auto" class="radio-btn" >легковой автомобиль</label>
+                      <label for="type-2"><input type="radio" id="type-2" value="грузовой автомобиль" name="type-auto" class="radio-btn" >грузовой автомобиль</label>
+                      <label for="type-3"><input type="radio" id="type-3" value="грузовой автомобиль" name="type-auto" class="radio-btn" >специальная техника</label>
+                    </div>
+                    <div class="calc__check">
+                      <label for="calc-f-client" class="check"><input type="checkbox" value="машина остаётся у Вас" id="calc-f-client" name="client" ><span>машина остаётся у Вас</span></label>
+                      <label for="presents" class="check presents"><input type="checkbox" id="presents" value="1" name="presents" checked="true"><span>* Не является офертой. Акция для впервые обратившихся клиентов. Условия акции уточняйте по телефонам автоломбарда. Возможно применение индивидуальных условий заключения договора</span> </label>
+  
+                    </div>
+                    
+                </form>
+                <div>
+                    <div class="calc-result-wrapper">
+                        <div id="calc-result">&nbsp;</div>
+                    </div>
+                </div>
+                <div style="clear:both;">&nbsp;</div>
+                <div class="calc-result"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="privilege main-block">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center">Почему Вы можете быть уверены в нас </h2>
+      <div class="offset-lg-1 col-lg-7">
+        <div class="privilege__block">
+          <h3>Никаких скрытых платежей!</h3>
+          <p>Мы уважаем своих клиентов, поэтому не обманываем Вас и не обещаем сверхнизкий процент по займу. Сумму процентов Вы можете узнать заранее, воспользовавшись калькулятором займа. Эта сумма окончательна. Никаких дополнительных платежей не предусмотрено. Получить наличные под залог автомобиля у нас намного проще, чем Вам кажется!</p>
+        </div>
+        <div class="privilege__block">
+          <h3>Наш автоломбард работает официально.</h3>
+          <p>Зарегистрирован 01.07.2009г. Реквизиты. ИНН. ОГРН. Вся деятельность автоломбарда осуществляется в строгом соответствии с Федеральным Законом от 19.07.2007 г. № 196-ФЗ «О ломбардах». Это значит, что Ваши права как заемщика защищены законом. ВНИМАНИЕ: Обратившись в ломбард, работающий неофициально, вы не застрахованы от противоправных действий в отношении Вашего имущества со стороны недобросовестного ломбарда.</p>
+        </div>
+        <div class="privilege__block">
+          <h3>Мы дорожим своей репутацией.</h3>
+          <p>Наибольшая ценность для нас – это доверие наших клиентов. Своей работой мы доказываем, что взаимовыгодное сотрудничество между клиентом и ломбардом возможно. Благодаря большому количеству обращений по рекомендациям знакомых (наших клиентов), мы убеждены, что выбранный нами путь правильный.</p>
+        </div>
+        <div class="note">
+          <p>*Не является публичной офертой. Подробную информацию уточняйте по телефону: 383-1900</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- form -->
+<section class="form form-center" id="form">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-5 m-auto float-none">
+              <h2 class="form__title">Заполните анкету онлайн и приезжайте сразу за деньгами</h2>
+              <p>менеджер перезвонит в течение 10 минут</p>
+              <form action="submit-form.php" method="POST">
+                  <input type="text" name="name" placeholder="Ваше имя" class="d-block">
+                  <input type="text" name="tel" placeholder="Контактный номер" class="d-block">
+                  <input type="text" name="car" placeholder="Ваш автомобиль" class="d-block">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-block mb-4 d-block btn-notice ">Оставить заявку</button>
+
+                </form>
+          </div>
+      </div>
+     
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="text-center text-lg-start main-block">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-12 mb-4 mb-md-0 ">
+          <img src="img/nav/logo.svg" alt="" class="footer__logo">
+          <a class="nav-link nav-tel" href="tel:+78129620470"><img src="img/nav/tel-icon.svg" alt="">+7 (812) 962-04-70</a>
+          <a class="nav-link nav-tel" href="tel:+78126467373"><img src="img/nav/tel-icon.svg" alt="">+7 (812) 646-73-73</a>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="offset-lg-1 col-lg-2 col-md-3 mb-5 mb-md-0">
+        <h5 class="text-uppercase">Главная</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="nav-link">Задать вопрос</a>
+          </li>
+
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-3 mb-5 mb-md-0">
+        <h5 class="text-uppercase ">Информация</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="condition.html" class="nav-link">Условие залога</a>
+          </li>
+          <li>
+            <a href="bid.html" class="nav-link">Заявка на займ</a>
+          </li>
+          <li>
+            <a href="auction.html" class="nav-link">Аукционы</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-3 mb-5 mb-md-0">
+          <h5 class="text-uppercase">Калькулятор</h5>
+          <ul class="list-unstyled mb-0">
+              <li>
+              <a href="calculator.html" class="nav-link">Перейти</a>
+              </li>
+  
+          </ul>
+      </div>
+      <!--Grid column-->
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-3 mb-4 mb-md-0 center-footer">
+        <h5 class="text-uppercase mb-5">Контакты</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="btn btn-notice">Адреса филиалов</a>
+          </li>
+
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="social-icon" >
+    <a href="instagram.com"><img src="img/icon/insta.svg" alt=""></a>
+    <a href="https://vk.com/lomard98"><img src="img/icon/vk.svg" alt=""></a>
+    <a href="instagram.com"><img src="img/icon/viber.svg" alt=""></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  <!-- Footer -->
+  <!--content end-->
+</body>
+<!-- JavaScript -->
+<script src="js/app.js"></script>
+<script>
+  $("input[type='radio']").click(function() {
+    $("label").removeClass("active");
+    if ($(this).is(":checked")) { $(this).parent().addClass("active"); }
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-t6I8D5dJmMXjCsRLhSzCltuhNZg6P10kE0m0nAncLUjH6GeYLhRU1zfLoW3QNQDF" crossorigin="anonymous"></script>
+</html>
