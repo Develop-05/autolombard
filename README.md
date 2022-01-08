@@ -1,3 +1,3 @@
 
 ### переход на сайт
->https://denys-lucky.github.io/autolombard/
+>https://Develop-05.github.io/autolombard/
